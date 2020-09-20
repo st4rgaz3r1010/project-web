@@ -1,0 +1,299 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+.navbar{
+    left: 200;
+    top: 100;
+    position: absolute;
+    background-color: #f6404f;
+    height: 80px;
+    width: 300px;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.425);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.accent{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    background-color: #c1ff00;
+    left: 15%;
+    top: 50%;
+}
+.accent-white{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    background-color: white;
+    left: 50%;
+    top: 50%;
+}
+.username{
+    font-size: 20px;
+    position: absolute;
+    left: 35%;
+    top: 25px;
+    color: black;
+    font-family: DM Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.menu{
+    height: 300px;
+    width: 300px;
+    background-color: #f6404f;
+    position: absolute;
+    left: 200px;
+    top: 325px;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.425);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.price{
+    height: 50px;
+    width: 250px;
+    background-color: #c1ff00;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.price-img{
+    width: 15%;
+    top: 7px;
+    position: absolute;
+    left: 5%;
+}
+.price-text{
+    font-size: 20px;
+    position: absolute;
+    left: 35%;
+    top: 8px;
+    color: black;
+    font-family: DM Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.dashboard{
+    height: 50px;
+    width: 250px;
+    background-color: #f6404f;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.dashboard-img{
+    width: 20%;
+    position: absolute;
+    left: 5%;
+}
+.dashboard-text{
+    font-size: 20px;
+    position: absolute;
+    left: 35%;
+    top: 10px;
+    color: black;
+    font-family: DM Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.setting{
+    height: 50px;
+    width: 250px;
+    background-color: #f6404f;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.setting-img{
+    width: 15%;
+    position: absolute;
+    left: 5%;
+}
+.setting-text{
+    font-size: 20px;
+    position: absolute;
+    left: 35%;
+    top: 8px;
+    color: black;
+    font-family: DM Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.information{
+    height: 110px;
+    width: 960px;
+    background-color: white;
+    position: absolute;
+    left: 872px;
+    top: 115px;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.425);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.information-text{
+    left: 33%;
+    text-align: center;
+    position: absolute;
+    top: 37px;
+    font-weight: 500;
+    font-family: DM Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.price1{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(74, 253, 74);
+    position: absolute;
+    left: 40%;
+    top: 396px;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.425);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    transition: 1s;
+}
+.price1:hover{
+    transition: 1s;
+    box-shadow: 0 10px 20px rgb(0, 0, 0);
+}
+.price1-profile{
+    height: 100px;
+    width: 300;
+    left: 50%;
+    top: 12%;
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.price1-text{
+    left: 40%;
+    text-align: center;
+    position: absolute;
+    top: 35px;
+    font-weight: 500;
+    font-family: DM Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.price1-plan{
+    left: 27%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    font-weight: 500;
+    font-family: DM Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.price1-get{
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    background-color: white;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    text-align: center;
+    border-radius: 30px;
+}
+.price1-getext{
+    left: 30%;
+    text-align: center;
+    position: absolute;
+    top: 15px;
+    font-weight: 500;
+    font-family: DM Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.price2{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(58, 128, 219);
+    position: absolute;
+    left: 64%;
+    top: 396px;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.425);
+    border-radius: 10px;
+    text-align: center;
+    transition: 1s;
+    overflow: hidden;
+}
+.price2:hover{
+    transition: 1s;
+    box-shadow: 0 10px 20px rgb(0, 0, 0);
+}
+.price2-profile{
+    height: 100px;
+    width: 300;
+    left: 50%;
+    top: 12%;
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.price3{
+    height: 400px;
+    width: 300px;
+    background-color: #f6404f;
+    position: absolute;
+    left: 88%;
+    top: 396px;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.425);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    transition: 1s;
+}
+.price3:hover{
+    transition: 1s;
+    box-shadow: 0 10px 20px rgb(0, 0, 0);
+}
+.price3-profile{
+    height: 100px;
+    width: 300;
+    left: 50%;
+    top: 12%;
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+}

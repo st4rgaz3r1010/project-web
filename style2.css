@@ -1,0 +1,394 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+.navbar{
+    background-color: #f6404f;
+    height: 200px;
+    
+}
+.logo{
+    width: 10%;
+    box-sizing: content-box;
+    position: relative;
+    bottom: -60px;
+    right: -20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.home{
+    position: relative;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+    z-index: 200;
+    right: -700;
+    bottom: -30;
+    font-family: DM Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.course{
+    position: relative;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+    z-index: 200;
+    right: -750;
+    bottom: -30;
+    font-family: DM Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.login{
+    position: relative;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2em;
+    z-index: 200;
+    right: -800;
+    bottom: -30;
+    font-family: DM Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.myButton {
+    position: relative;
+    right: -830;
+    bottom: -30;
+	background-color:transparent;
+	border-radius:7px;
+	border:3px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: DM Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size:20px;
+	padding: 9px 20px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:transparent;
+}
+.hal1{
+    background-color: white;
+    height: 494px;
+}
+.haltext{
+    color: black;
+    position: relative;
+    top: 5%;
+    right: -35%;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    font-size: 56px;
+    font-family: DM Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.line{
+    width:30%;
+    text-align:center;
+    margin:0 auto;
+}
+.card{
+    background-color: #f6404f;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 200;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.500);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    transition: 1s;
+}
+.card:hover{
+    transition: 1s;
+    box-shadow: 0 15px 40px rgb(0, 0, 0);
+}
+.card-profile{
+    height: 30%;
+    width: 100%;
+    background-image: linear-gradient(
+        45deg,
+        rgb(255,224,27),
+        white
+    );
+    position: absolute;
+    bottom: 0;
+    border-radius: 140px 140px 0 0;
+}
+.card1{
+    background-color: #f6404f;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: -100;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.500);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    transition: 1s;
+}
+.card1:hover{
+    transition: 1s;
+    box-shadow: 0 15px 40px rgb(0, 0, 0);
+}
+.card2{
+    background-color: #f6404f;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: -400;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.500);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    transition: 1s;
+}
+.card2:hover{
+    transition: 1s;
+    box-shadow: 0 15px 40px rgb(0, 0, 0);
+}
+.hal2{
+    background-color: white;
+    height: 1000px;
+}
+.haltext2{
+    color: black;
+    position: relative;
+    top: 15%;
+    right: -32%;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    font-size: 56px;
+    font-family: DM Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.line2{
+    width:36%;
+    text-align:center;
+    margin:0 auto;
+}
+.columns{
+    background-color: white;
+    height: 125px;
+    width: 300px;
+    position: relative;
+    top: 100;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.500);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    transition: 1s;
+}
+.columns:hover{
+    transition: 1s;
+    box-shadow: 0 15px 40px rgb(0, 0, 0);
+}
+.brands{
+    width: 80%;
+}
+.columns2{
+    background-color: white;
+    height: 125px;
+    width: 300px;
+    position: relative;
+    top: -25;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.500);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    transition: 1s;
+}
+.columns2:hover{
+    transition: 1s;
+    box-shadow: 0 15px 40px rgb(0, 0, 0);
+}
+.brands2{
+    position: relative;
+    margin-top: 5px;
+    width: 80%;
+}
+.columns3{
+    background-color: white;
+    height: 125px;
+    width: 300px;
+    position: relative;
+    top: -150;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.500);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    transition: 1s;
+}
+.columns3:hover{
+    transition: 1s;
+    box-shadow: 0 15px 40px rgb(0, 0, 0);
+}
+.brands3{
+    position: relative;
+    margin-top: -10px;
+    width: 80%;
+}
+.columns4{
+    background-color: white;
+    height: 125px;
+    width: 300px;
+    position: relative;
+    top: 0%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.500);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    transition: 1s;
+}
+.columns4:hover{
+    transition: 1s;
+    box-shadow: 0 15px 40px rgb(0, 0, 0);
+}
+.brands4{
+    width: 80%;
+}
+.columns5{
+    background-color: white;
+    height: 125px;
+    width: 300px;
+    position: relative;
+    top: -25;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.500);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    transition: 1s;
+}
+.columns5:hover{
+    transition: 1s;
+    box-shadow: 0 15px 40px rgb(0, 0, 0);
+}
+.brands5{
+    position: relative;
+    margin-top: -45px;
+    width: 100%;
+}
+.columns6{
+    background-color: white;
+    height: 125px;
+    width: 300px;
+    position: relative;
+    top: -150;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.500);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    transition: 1s;
+}
+.columns6:hover{
+    transition: 1s;
+    box-shadow: 0 15px 40px rgb(0, 0, 0);
+}
+.brands6{
+    position: relative;
+    margin-top: 0px;
+    width: 40%;
+}
+.columns7{
+    background-color: white;
+    height: 125px;
+    width: 300px;
+    position: relative;
+    top: 0%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.500);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    transition: 1s;
+}
+.columns7:hover{
+    transition: 1s;
+    box-shadow: 0 15px 40px rgb(0, 0, 0);
+}
+.brands7{
+    position: relative;
+    margin-top: 5%;
+    width: 80%;
+}
+.columns8{
+    background-color: white;
+    height: 125px;
+    width: 300px;
+    position: relative;
+    top: -25;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.500);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    transition: 1s;
+}
+.columns8:hover{
+    transition: 1s;
+    box-shadow: 0 15px 40px rgb(0, 0, 0);
+}
+.brands8{
+    position: relative;
+    padding-top: 13%;
+    padding-bottom: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    width: 90%;
+}
+.columns9{
+    background-color: white;
+    height: 125px;
+    width: 300px;
+    position: relative;
+    top: -150;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.500);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    transition: 1s;
+}
+.columns9:hover{
+    transition: 1s;
+    box-shadow: 0 15px 40px rgb(0, 0, 0);
+}
+.brands9{
+    position: relative;
+    margin-top: 0px;
+    width: 40%;
+}

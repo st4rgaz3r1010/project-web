@@ -1,0 +1,245 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    box-sizing: border-box;
+}
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+.navbar{
+    left: 200;
+    top: 100;
+    position: absolute;
+    background-color: #f6404f;
+    height: 80px;
+    width: 300px;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.425);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.accent{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    background-color: #c1ff00;
+    left: 15%;
+    top: 50%;
+}
+.accent-white{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    background-color: white;
+    left: 50%;
+    top: 50%;
+}
+.username{
+    font-size: 20px;
+    position: absolute;
+    left: 35%;
+    top: 25px;
+    color: black;
+    font-family: DM Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.menu{
+    height: 300px;
+    width: 300px;
+    background-color: #f6404f;
+    position: absolute;
+    left: 200px;
+    top: 325px;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.425);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.dashboard{
+    height: 50px;
+    width: 250px;
+    background-color: #c1ff00;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.dashboard-img{
+    width: 20%;
+    position: absolute;
+    left: 5%;
+}
+.dashboard-text{
+    font-size: 20px;
+    position: absolute;
+    left: 35%;
+    top: 10px;
+    color: black;
+    font-family: DM Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.price{
+    height: 50px;
+    width: 250px;
+    background-color: #f6404f;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.price-img{
+    width: 15%;
+    position: absolute;
+    left: 5%;
+}
+.price-text{
+    font-size: 20px;
+    position: absolute;
+    left: 35%;
+    top: 8px;
+    color: black;
+    font-family: DM Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.setting{
+    height: 50px;
+    width: 250px;
+    background-color: #f6404f;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.setting-img{
+    width: 15%;
+    position: absolute;
+    left: 5%;
+}
+.setting-text{
+    font-size: 20px;
+    position: absolute;
+    left: 35%;
+    top: 8px;
+    color: black;
+    font-family: DM Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.progress{
+    height: 310px;
+    width: 600px;
+    background-color: white;
+    position: absolute;
+    left: 700px;
+    top: 460px;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.425);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.progress-text{
+    left: 44%;
+    position: absolute;
+    top: 20px;
+    font-weight: 500;
+    font-family: DM Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.progress-img{
+    position: absolute;
+    left: 55%;
+    top: 90px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.425);
+}
+.progress-img2{
+    position: absolute;
+    left: 20%;
+    top: 90px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.425);
+}
+.courses{
+    height: 210px;
+    width: 600px;
+    background-color: white;
+    position: absolute;
+    left: 700px;
+    top: 165px;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.425);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.courses-text{
+    left: 7%;
+    position: absolute;
+    top: 50px;
+    font-weight: 500;
+    font-family: DM Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.vl{
+    border-left: 6px solid black;
+    position: absolute;
+    left: 30%;
+    height: 500px;
+}
+.upcoming{
+    height: 560px;
+    width: 300px;
+    background-color: #f6404f;
+    position: absolute;
+    left: 1180px;
+    top: 336px;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.425);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.upcoming-text{
+    left: 25%;
+    position: absolute;
+    top: 50px;
+    font-weight: 500;
+    font-family: DM Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+.event{
+    height: 400px;
+    width: 300px;
+    background-color: #c1ff00;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;   
+}
