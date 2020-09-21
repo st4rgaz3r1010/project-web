@@ -15,8 +15,8 @@ html{
     width: 10%;
     box-sizing: content-box;
     position: relative;
-    bottom: -60px;
-    right: -20px;
+    bottom: -30px;
+    right: -50px;
 }
 a{
     text-decoration: none;
@@ -31,7 +31,7 @@ a{
     line-height: 1.2em;
     z-index: 200;
     right: -700;
-    bottom: -30;
+    bottom: 0;
     font-family: DM Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 .course{
@@ -43,7 +43,7 @@ a{
     line-height: 1.2em;
     z-index: 200;
     right: -750;
-    bottom: -30;
+    bottom: 0;
     font-family: DM Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 .login{
@@ -55,13 +55,13 @@ a{
     line-height: 1.2em;
     z-index: 200;
     right: -800;
-    bottom: -30;
+    bottom: 0;
     font-family: DM Sans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 .myButton {
     position: relative;
     right: -830;
-    bottom: -30;
+    bottom: 0;
 	background-color:transparent;
 	border-radius:7px;
 	border:3px solid #ffffff;
